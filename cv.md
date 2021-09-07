@@ -24,17 +24,20 @@ And now I have a great willingness to learn and master JavaScript. I am eager to
 * Good command of bug tracking systems
 
 ## CODE SAMPLES
-[Array difference](https://www.codewars.com/kata/523f5d21c841566fde000009) - subtract one list from another and return the result:    
+#### [Array difference](https://www.codewars.com/kata/523f5d21c841566fde000009)
+Subtract one list from another and return the result:    
     
 ```
 function arrayDiff(a, b) {
     return a.filter(el => !b.includes(el));
 }
+
 arrayDiff([1,2],[1]); // result = [2]
 arrayDiff([1,2,2,2,3],[2]); // result = [1,3]
 ```
     
-[Digital root](https://www.codewars.com/kata/541c8630095125aba6000c00) - recursive sum of all the digits in a number:    
+#### [Digital root](https://www.codewars.com/kata/541c8630095125aba6000c00)
+Find the recursive sum of all the digits in a number:    
     
 ```
 function digital_root(n) {
@@ -45,6 +48,9 @@ function digital_root(n) {
     }
     return result < 10 ? result : digital_root(result);
 }
+
+digital_root(16) // result = 7
+digital_root(456) // result = 6
 ```
 
 ## PORTFOLIO
