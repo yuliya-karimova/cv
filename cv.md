@@ -30,10 +30,29 @@ Subtract one list from another and return the result:
 function arrayDiff(a, b) {
     return a.filter(el => !b.includes(el));
 }
-arrayDiff([1,2],[1]) // [2]
-arrayDiff([1,2,2,2,3],[2]) // [1,3]
+arrayDiff([1,2],[1]) // result = [2]
+arrayDiff([1,2,2,2,3],[2]) // result = [1,3]
 ```
 
 ## PORTFOLIO
 * [Virtual synthesizer](https://yuliya-karimova.github.io/virtual-piano/)  
 * [Museum website development](https://yuliya-karimova.github.io/museum/)  
+
+## EXPERIENCE
+#### QA Engineer
+[Yandex](https://yandex.ru/)  
+*August 2018 - Present (3 years)*
+
+1. Developing test plans and test cases and keeping it up to date
+3. Functional and non-functional testing, smoke, black box, integration, regression, localization testing
+3. Cross device, cross system, cross browser testing of websites, desktop and mobile apps
+4. Tracking bugs in bug-tracking system
+5. Working with user reports
+
+#### Web designer
+[Dikiy Zver](https://dikiyzver.com/)  
+*September 2016 - May 2018 (1 year and 9 months)*
+
+1. Developing site prototype
+2. Designing web interfaces and creating site content
+4. Testing and fixing bugs
