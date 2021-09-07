@@ -66,6 +66,7 @@ Peter the Great St.Petersburg Polytechnic University
 * HTML/CSS, Bootstrap 3, PHP/MySQL - [FructCode](https://fructcode.com/)
 * HTML, CSS, JavaScript - [Code Basics](https://ru.code-basics.com/)
 * HTML, CSS, JavaScript - [WebReference](https://webref.ru/)
+* JavaScript/Front-end. Stage 0 - [RS School](https://rs.school/js-stage0/)
 
 ## ENGLISH
 B2 - Upper-Intermediate
