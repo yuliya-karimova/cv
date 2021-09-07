@@ -56,3 +56,19 @@ arrayDiff([1,2,2,2,3],[2]) // result = [1,3]
 1. Developing site prototype
 2. Designing web interfaces and creating site content
 4. Testing and fixing bugs
+
+## EDUCATION
+*2012 - 2016*  
+Bachelor of Economics  
+Peter the Great St.Petersburg Polytechnic University  
+
+#### Courses:
+* HTML/CSS, Bootstrap 3, PHP/MySQL - [FructCode](https://fructcode.com/)
+* HTML, CSS, JavaScript - [Code Basics](https://ru.code-basics.com/)
+* HTML, CSS, JavaScript - [WebReference](https://webref.ru/)
+
+## ENGLISH
+B2 - Upper-Intermediate
+
+## ADDITIONAL INFORMATION
+I have experience with Visual Studio Code, Adobe Illustrator, Adobe Photoshop, 3D Max, Blender.
