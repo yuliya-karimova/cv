@@ -34,6 +34,19 @@ arrayDiff([1,2],[1]) // result = [2]
 arrayDiff([1,2,2,2,3],[2]) // result = [1,3]
 ```
 
+Find digital Root - recursive sum of all the digits in a number:
+
+```
+function digital_root(n) {
+    let result = 0;
+    while (n) {
+      result += n % 10;
+      n = Math.floor(n / 10);
+    }
+    return result < 10 ? result : digital_root(result);
+}
+```
+
 ## PORTFOLIO
 * [Virtual synthesizer](https://yuliya-karimova.github.io/virtual-piano/)  
 * [Museum website development](https://yuliya-karimova.github.io/museum/)  
