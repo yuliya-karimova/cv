@@ -27,7 +27,7 @@ And now I have a great willingness to learn and master JavaScript. I am eager to
 #### [Array difference](https://www.codewars.com/kata/523f5d21c841566fde000009)
 Subtract one list from another and return the result:    
     
-```
+```javascript
 function arrayDiff(a, b) {
     return a.filter(el => !b.includes(el));
 }
@@ -39,7 +39,7 @@ arrayDiff([1,2,2,2,3],[2]); // result = [1,3]
 #### [Digital root](https://www.codewars.com/kata/541c8630095125aba6000c00)
 Find the recursive sum of all the digits in a number:    
     
-```
+```javascript
 function digital_root(n) {
     let result = 0;
     while (n) {
