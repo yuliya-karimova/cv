@@ -7,24 +7,23 @@
     <title>CV Yuliya Karimova</title>
     <meta name="description" content="CV of Yuliya Karimova - Junior JavaScript Developer"> 
     <meta name="keywords" content="CV, JavaScript, HTML, CSS, Yuliya Karimova, Resume, Developer, Web, Design">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Questrial&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
 </head>
 <body>
-    <div class="content">
-        <header>
+    <div class="container">
+        <header class="header">
             <div class="color-strip"></div>
             <div class="header-content">
-                <img class="photo" src="assets/pictures/photo.jpg" alt="Yuliya Karimova photo">
+                <img class="photo" src="assets/img/photo.jpg" alt="Yuliya Karimova photo">
                 <h1>YULIYA KARIMOVA</h1>
                 <p class="description">JUNIOR JAVASCRIPT DEVELOPER</p>
             </div>
         </header>
-        <main>
+        <main class="main">
             <div class="wrapper">
                 <div class="left-column">
                     <section>
@@ -39,11 +38,13 @@
                         </ul>
                     </section>
                     <section>
-                        <h2>PROFILE</h2>
-                        <p>I have two years of experience in UI, UX and WEB design and three years of experience in testing.</p>
-                        <p>During my work as a web designer I developed design of websites for a wide range of companies, created different advertising products.</p>
-                        <p>As a tester I took part in preparing test documentation, testing and support for large commercial projects.</p>
-                        <p> And now I have a great willingness to learn and master JavaScript. I am eager to be challenged in order to grow and further improve my skills.</p>
+                        <article>
+                            <h2>PROFILE</h2>
+                            <p>I have two years of experience in UI, UX and WEB design and three years of experience in testing.</p>
+                            <p>During my work as a web designer I developed design of websites for a wide range of companies, created different advertising products.</p>
+                            <p>As a tester I took part in preparing test documentation, testing and support for large commercial projects.</p>
+                            <p> And now I have a great willingness to learn and master JavaScript. I am eager to be challenged in order to grow and further improve my skills.</p>
+                        </article>
                     </section>
                     <section>
                         <h2>SKILLS</h2>
@@ -57,6 +58,7 @@
                     </section>
                     <section>
                         <h2>CODE SAMPLES</h2>
+                        <h3>Array difference</h3>
                         <p><i>Subtract one list from another and return the result:</i></p>
                         <div class="code-sample">
                             <code>
@@ -68,6 +70,8 @@
                             </code>
                         </div>
                     </section>
+                </div>
+                <div class="right-column">
                     <section>
                         <h2>PORTFOLIO</h2>
                         <ul>
@@ -75,8 +79,6 @@
                             <li><a target="_blank" href="https://yuliya-karimova.github.io/museum/">Museum website development</a></li>
                         </ul>
                     </section> 
-                </div>
-                <div class="right-column">
                     <section>
                     <h2>EXPERIENCE</h2>
                     <h3>QA Engineer</h3>
@@ -118,10 +120,10 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <p><a target="_blank" href="https://github.com/yuliya-karimova">Welcome to my GitHub</a></p>
             <p><time datetime="2021">2021</time></p>
-            <p><a target="_blank" href="https://rs.school/js/"><img src="assets/images/rs_school_js.svg" width="80" alt="Logo of The Rolling Scopes School" title="RSS course «JavaScript/Front-end»"></a></p>
+            <p><a target="_blank" href="https://rs.school/js/"><img src="assets/svg/rs_school_js.svg" width="80" alt="Logo of The Rolling Scopes School" title="RSS course «JavaScript/Front-end»"></a></p>
         </footer>
     </div>
 </body>
