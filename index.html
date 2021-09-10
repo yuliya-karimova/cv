@@ -18,17 +18,24 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <div class="color-strip"></div>
-            <div class="header-content">
-                <img class="photo" src="assets/img/photo.jpg" alt="Yuliya Karimova photo">
-                <h1>YULIYA KARIMOVA</h1>
-                <p class="description">JUNIOR JAVASCRIPT DEVELOPER</p>
-            </div>
-        </header>
-        <main class="main">
+        <div class="wrapper">
             <div class="left-column">
-                <section>
+                <img class="photo" src="assets/img/photo.jpg" alt="Yuliya Karimova photo">
+                <button class="menu"></button>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#contacts">CONTACTS</a></li>
+                        <li><a href="#profile">PROFILE</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#code-samples">CODE SAMPLES</a></li>
+                        <li><a href="#experience">EXPERIENCE</a></li>
+                        <li><a href="#education">EDUCATION</a></li>
+                        <li><a href="#english">ENGLISH</a></li>
+                        <li><a href="#video">VIDEO</a></li>
+                    </ul>
+                </nav>
+                <section id="contacts">
                     <h2>CONTACTS</h2>
                     <ul>
                         <li><b>Phone:</b> <a target="_blank" href="tel:+79817845590">+79817845590</a></li>
@@ -36,33 +43,79 @@
                         <li><b>Telegram:</b> <a target="_blank" href="https://t.me/yulya_karimova">@yulya_karimova</a></li>
                         <li><b>GitHub:</b> <a target="_blank" href="https://github.com/yuliya-karimova">yuliya-karimova</a></li>
                         <li><b>CodeWars:</b> <a target="_blank" href="https://www.codewars.com/users/yuliya-karimova/">yuliya-karimova</a></li>
-                        <li><b>Address:</b> Russia, Saint Petersburg</li>
+                        <li><b>Address:</b> Russia, St. Petersburg</li>
                     </ul>
                 </section>
-                <section>
-                    <article>
-                        <h2>PROFILE</h2>
-                        <p>I have two years of experience in UI, UX and WEB design and three years of experience in testing.</p>
-                        <p>During my work as a web designer I developed design of websites for a wide range of companies, created different advertising products.</p>
-                        <p>As a tester I took part in preparing test documentation, testing and support for large commercial projects.</p>
-                        <p> And now I have a great willingness to learn and master JavaScript. I am eager to be challenged in order to grow and further improve my skills.</p>
-                    </article>
-                </section>
-                <section>
+                <section id="skills">
                     <h2>SKILLS</h2>
                     <ul>
-                        <li>Knowledge of HTML, CSS, JavaScript</li>
-                        <li>Experience with Git, GitHub</li>
-                        <li>Debugging with Charles, Fiddler, browser devtools</li>
-                        <li>Cross platform (devices, systems, browsers) manual testing</li>
-                        <li>Good command of bug tracking systems</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Git, GitHub</li>
+                        <li>Charles, Fiddler, DevTools</li>
+                        <li>Cross platform manual testing</li>
+                        <li>Visual Studio Code</li>
+                        <li>Illustrator, Photoshop</li>
+                        <li>3D Max, Blender</li>
                     </ul>
                 </section>
-                <section>
-                    <h2>CODE SAMPLES</h2>
-                    <p><i>Find the digital root - the recursive sum of all the digits in a number:</i></p>
-                    <div class="code-sample">
-                        <pre><code>function digital_root(n) {
+            </div>
+            <div class="right-column">
+                <header class="header">
+                    <h1><span class="name">YULIYA</span><br>KARIMOVA</h1>
+                    <p class="description">JUNIOR JAVASCRIPT DEVELOPER</p>
+                </header>
+                <main class="main">
+                    <section id="profile">
+                        <article>
+                            <h2>PROFILE</h2>
+                            <p>I have two years of experience in UI, UX and WEB design and three years of experience in testing.</p>
+                            <p>During my work as a web designer I developed design of websites for a wide range of companies, created different advertising products.</p>
+                            <p>As a tester I took part in preparing test documentation, testing and support for large commercial projects.</p>
+                            <p>And now I have a great willingness to learn and master JavaScript. I am eager to be challenged in order to grow and further improve my skills.</p>
+                        </article>
+                    </section>
+                    <section id="experience">
+                        <h2>EXPERIENCE</h2>
+                        <h3>QA Engineer</h3>
+                        <p><a target="_blank" href="https://yandex.ru/">Yandex</a><br><i>August 2018 - Present (3 years)</i></p>
+                        <ol>
+                            <li>Developing test plans and cases and keeping it up to date</li>
+                            <li>Functional and non-functional testing, smoke, black box, integration, regression, localization testing</li>
+                            <li>Cross device, cross system, cross browser testing of websites, desktop and mobile apps</li>
+                            <li>Tracking bugs in bug-tracking system</li>
+                            <li>Working with user reports</li>
+                        </ol>
+                        <h3>Web designer</h3>
+                        <p><a target="_blank" href="https://dikiyzver.com/">Dikiy Zver</a><br><i>September 2016-May 2018 (1 year and 9 months)</i></p>
+                        <ol>
+                            <li>Developing of site prototypes</li>
+                            <li>Designing web interfaces and creating site content</li>
+                            <li>Testing and fixing bugs</li>
+                        </ol>
+                    </section>
+                    <section id="portfolio">
+                        <h2>PORTFOLIO</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://yuliya-karimova.github.io/virtual-piano/">Virtual synthesizer</a></li>
+                            <li><a target="_blank" href="https://yuliya-karimova.github.io/museum/">Museum website development</a></li>
+                        </ul>
+                    </section>
+                    <section id="education">
+                        <h2>EDUCATION</h2>
+                        <p><i>2012 - 2016</i><br>Bachelor of Economics<br>Peter the Great St.Petersburg Polytechnic University  </p>
+                        <h3>Courses:</h3>
+                        <ul>
+                            <li>HTML/CSS, Bootstrap 3, PHP/MySQL - <a target="_blank" href="https://fructcode.com/">FructCode</a></li>
+                            <li>HTML, CSS, JavaScript - <a target="_blank" href="https://ru.code-basics.com/">Code Basics</a></li>
+                            <li>HTML, CSS, JavaScript - <a target="_blank" href="https://webref.ru/">WebReference</a></li>
+                            <li>JavaScript/Front-end. Stage 0 - <a target="_blank" href="https://rs.school/js-stage0/">RS School</a></li>
+                        </ul>
+                    </section>
+                    <section id="code-samples">
+                        <h2>CODE SAMPLES</h2>
+                        <div class="code-sample">
+                            <p>Find the digital root - the recursive sum of all the digits in a number:</p>
+                            <pre><code>function digital_root(n) {
     let result = 0;
     while (n) {
         result += n % 10;
@@ -72,65 +125,30 @@
 }
 digital_root(16) // result = 7
 digital_root(456) // result = 6</code></pre>
-                    </div>
-                    <p><i>Array difference - subtract one list from another and return the result:</i></p>
-                    <div class="code-sample">
-                        <pre><code>function arrayDiff(a, b) {
+                        </div>
+                        <div class="code-sample">
+                            <p>Array difference - subtract one list from another and return the result:</p>
+                            <pre><code>function arrayDiff(a, b) {
     return a.filter(el =&gt; !b.includes(el));
 }
 arrayDiff([1,2],[1]); // result = [2]
 arrayDiff([1,2,2,2,3],[2]); // result = [1,3]</code></pre>
-                    </div>
-                </section>
+                        </div>
+                    </section>
+                    <section id="english">
+                        <h2>ENGLISH</h2>
+                        <p>B1 - Intermediate</p>
+                        <!-- todo -->
+                        <p>I had a practice working in a hotel with foreign guests.</p>
+                    </section>
+                    <section id="video">
+                        <h2>VIDEO</h2>
+                        <!-- todo -->
+    <!--                     <iframe width="560" height="315" src="https://www.youtube.com/embed/LKH1hM6ge34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </section>
+                </main>
             </div>
-            <div class="right-column">
-                <section>
-                    <h2>PORTFOLIO</h2>
-                    <ul>
-                        <li><a target="_blank" href="https://yuliya-karimova.github.io/virtual-piano/">Virtual synthesizer</a></li>
-                        <li><a target="_blank" href="https://yuliya-karimova.github.io/museum/">Museum website development</a></li>
-                    </ul>
-                </section> 
-                <section>
-                <h2>EXPERIENCE</h2>
-                <h3>QA Engineer</h3>
-                <p><a target="_blank" href="https://yandex.ru/">Yandex</a><br><i>August 2018 - Present (3 years)</i></p>
-                <ol>
-                    <li>Developing test plans and cases and keeping it up to date</li>
-                    <li>Functional and non-functional testing, smoke, black box, integration, regression, localization testing</li>
-                    <li>Cross device, cross system, cross browser testing of websites, desktop and mobile apps</li>
-                    <li>Tracking bugs in bug-tracking system</li>
-                    <li>Working with user reports</li>
-                </ol>
-                <h3>Web designer</h3>
-                <p><a target="_blank" href="https://dikiyzver.com/">Dikiy Zver</a><br><i>September 2016-May 2018 (1 year and 9 months)</i></p>
-                <ol>
-                    <li>Developing of site prototypes</li>
-                    <li>Designing web interfaces and creating site content</li>
-                    <li>Testing and fixing bugs</li>
-                </ol>
-                </section>
-                <section>
-                    <h2>EDUCATION</h2>
-                    <p><i>2012 - 2016</i><br>Bachelor of Economics<br>Peter the Great St.Petersburg Polytechnic University  </p>
-                    <h3>Courses:</h3>
-                    <ul>
-                        <li>HTML/CSS, Bootstrap 3, PHP/MySQL - <a target="_blank" href="https://fructcode.com/">FructCode</a></li>
-                        <li>HTML, CSS, JavaScript - <a target="_blank" href="https://ru.code-basics.com/">Code Basics</a></li>
-                        <li>HTML, CSS, JavaScript - <a target="_blank" href="https://webref.ru/">WebReference</a></li>
-                        <li>JavaScript/Front-end. Stage 0 - <a target="_blank" href="https://rs.school/js-stage0/">RS School</a></li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>ENGLISH</h2>
-                    <p>B2 - Upper-Intermediate</p>
-                </section>
-                <section>
-                    <h2>ADDITIONAL INFORMATION</h2>
-                    <p>I have experience with Visual Studio Code, Adobe Illustrator, Adobe Photoshop, 3D Max, Blender.</p>
-                </section> 
-            </div>
-        </main>
+        </div>
         <footer class="footer">
             <p><a target="_blank" href="https://github.com/yuliya-karimova">Welcome to my GitHub</a></p>
             <p><time datetime="2021">2021</time></p>
