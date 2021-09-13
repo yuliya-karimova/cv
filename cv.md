@@ -11,17 +11,27 @@
 **Address:** Russia, Saint Petersburg  
 
 ## PROFILE
-I have two years of experience in UI, UX and WEB design and three years of experience in testing.  
-During my work as a web designer I developed design of websites for a wide range of companies, created different advertising products.  
-As a tester I took part in preparing test documentation, testing and support for large commercial projects.  
-And now I have a great willingness to learn and master JavaScript. I am eager to be challenged in order to grow and further improve my skills. 
+I have two years of experience in web design and three years in testing.
+  
+During my work as a web designer I developed adaptive websites for a wide range of companies, made different advertising products, graphic content and did everything possible to make the product convenient for our clients and their clients too.  
+  
+But then I thought that I wanted to know how to work in a big company, and wanted to know something new and I got a job in Yandex as a tester.  
+  
+It was a very useful and important experience, but after all I realized that I'm more interested in creating a product. I really like to see the result of what I do because it really motivates me.  
+  
+That’s why I decided to try JavaScript. And it turned out to be really captivating for me. So I have a strong intention to learn and master it. But I'm sure that all my experience will help me in my future work.  
+  
+I've just finished a Stage 0 of JavaScript/Front-end course by RS School and have started a Stage 1.  
+My current goal is to grow professionally and further improve my skills.
 
 ## SKILLS
-* Knowledge of HTML, CSS, JavaScript
-* Experience with Git, GitHub
-* Debugging with Charles, Fiddler, browser devtools
-* Cross platform (devices, systems, browsers) manual testing
-* Good command of bug tracking systems
+ * HTML, CSS, JavaScript
+ * Git, GitHub
+ * Charles, Fiddler, DevTools
+ * Cross platform manual testing
+ * Visual Studio Code
+ * Illustrator, Photoshop
+ * 3D Max, Blender
 
 ## CODE SAMPLES
 #### [Array difference](https://www.codewars.com/kata/523f5d21c841566fde000009)
@@ -88,7 +98,7 @@ Peter the Great St.Petersburg Polytechnic University
 * JavaScript/Front-end. Stage 0 - [RS School](https://rs.school/js-stage0/)
 
 ## ENGLISH
-B2 - Upper-Intermediate
+B1 - Intermediate
 
-## ADDITIONAL INFORMATION
-I have experience with Visual Studio Code, Adobe Illustrator, Adobe Photoshop, 3D Max, Blender.
+## VIDEO
+[Link to the video with self-introduction](https://www.youtube.com/watch?v=kk2eIxRF2oQ&t=1s)
