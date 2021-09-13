@@ -1,9 +1,20 @@
+// document.cookie = 'SameSite=None; Secure';
+
 const body = document.body;
-const menu = document.querySelector('.menu');
-const nav = document.querySelector('.nav');
+const menuBtn = document.querySelector('.menu-btn');
+const menuList = document.querySelector('.menu-list');
 
 function showMenu() {
-    nav.classList.toggle('invisible');
+    menuList.classList.toggle('active');
+    if (menuList.style.maxHeight) {
+        menuList.style.maxHeight = null;
+    } else {
+        menuList.style.maxHeight = menuList.scrollHeight + "px";
+    }
 };
 
-menu.addEventListener('click', showMenu);
+menuBtn.addEventListener('click', showMenu);
+
+
+
+
