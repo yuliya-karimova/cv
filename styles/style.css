@@ -29,13 +29,13 @@ a {
 }
 
 body {
-    font: normal 105% 'PT Sans', sans-serif;
-    line-height: 1.8;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
     min-height: 100vh;
+    font: normal 105% 'PT Sans', sans-serif;
+    line-height: 1.8;
 }
 
 .mobile-title {
@@ -44,30 +44,30 @@ body {
 }
 
 .container {
-    width: 70%;
     display: flex;
     flex-direction: column;
+    width: 70%;
     background: var(--light);
 }
 
 .left-column {
-    width: 30%;
-    padding: 4% 4% 0;
-    background-color: var(--light-green);
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--light);
+    width: 30%;
+    padding: 4% 4% 0;
     border-bottom: 3px solid var(--light-green);
     margin-bottom: -3px;
+    background-color: var(--light-green);
+    color: var(--light);
 }
 
 .right-column {
-    width: 70%;
-    padding: 4% 6% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 70%;
+    padding: 4% 6% 0;
 }
 
 .left-column h2, .left-column li, .left-column a, .left-column b {
@@ -77,8 +77,8 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: center
 }
 
 .main {
@@ -87,10 +87,10 @@ body {
 }
 
 section {
-    padding: 50px 0 40px;
-    margin-bottom: 10px;
     position: relative;
     width: 100%;
+    padding: 50px 0 40px;
+    margin-bottom: 10px;
 }
 
 section {
@@ -110,17 +110,17 @@ section li {
 }
 
 .menu {
-    width: 100%;
     display: flex;
+    width: 100%;
     flex-direction: column-reverse;
 }
 
 .menu-btn {
-    width: 36px;
-    height: 28px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 36px;
+    height: 28px;
     cursor: pointer;
     transition: 0.1s;
 }
@@ -131,8 +131,8 @@ section li {
 
 .menu-btn .line {
     display: block;
-    height: 4px;
     width: 100%;
+    height: 4px;
     background: var(--dark-green);
 }
 
@@ -166,14 +166,14 @@ section li {
 .menu-list {
     width: 100%;
     max-height: 0;
+    margin: 25px 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    margin: 25px 0;
 }
 
 .menu-list ul {
-    list-style: none;
     font: normal 150% 'Questrial', sans-serif;
+    list-style: none;
 }
 
 .menu-list li {
@@ -196,8 +196,8 @@ section li {
 h1 {
     margin-bottom: 30px;
     font: normal 450% 'Questrial', sans-serif;
-    line-height: 80%;
     letter-spacing: 0.01em;
+    line-height: 80%;
     color: var(--green);
 }
 
@@ -209,8 +209,8 @@ h1 {
 .description {
     font: normal 150% 'Questrial', sans-serif;
     letter-spacing: 0.1em;
-    color: var(--grey);
     line-height: 1.5;
+    color: var(--grey);
 }
 
 h2 {
@@ -226,10 +226,10 @@ h3 {
 }
 
 .caption {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
     gap: 30px;
 }
 
@@ -252,7 +252,7 @@ footer a:hover {
 }
 
 code {
-    white-space:pre-wrap;
+    white-space: pre-wrap;
 }
 
 .code-sample {
@@ -288,10 +288,10 @@ code {
 
 .player {
     position:absolute;
-    width:100%;
-    height:100%;
     left:0;
     top:0;
+    width:100%;
+    height:100%;
 }
 
 .portfolio-list {
@@ -302,13 +302,13 @@ code {
 }
 
 .portfolio-work {
-    width: 100%;
-    opacity: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #e2e2e2;
+    width: 100%;
     text-decoration: none;
+    background-color: #e2e2e2;
+    opacity: 1;
 }
 
 .portfolio-work:hover {
@@ -367,8 +367,8 @@ and (max-width: 768px) {
     }
 
     h1 {
-        font-size: 300%;
         margin-bottom: 20px;
+        font-size: 300%;
         line-height: 90%;
     }
 
@@ -392,9 +392,9 @@ and (max-width: 768px) {
     .header .left-column {
         width: 100%;
         padding: 15% 10% 10%;
-        background-color: var(--light);
         border-bottom: 0;
         margin-bottom: 0;
+        background-color: var(--light);
     }
 
     .header .right-column {
