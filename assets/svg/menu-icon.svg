@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #303030;
+      }
+    </style>
+  </defs>
+  <title>menu-icon_2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M0,0H30V2H0ZM0,9H30V7H0Zm0,7H30V14H0Z"/>
+    </g>
+  </g>
+</svg>
