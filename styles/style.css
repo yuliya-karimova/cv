@@ -120,7 +120,7 @@ section li {
 }
 
 .menu-btn {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 36px;
@@ -168,8 +168,7 @@ section li {
 
 .menu-list {
     width: 100%;
-    max-height: 0;
-    margin: 25px 0;
+    margin-bottom: 35px;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
 }
@@ -350,6 +349,15 @@ and (max-width: 1280px) {
         width: 100%;
     }
 
+    .menu-btn {
+        display: flex;
+    }
+
+    .menu-list {
+        max-height: 0;
+        margin: 30px 0 35px 0;
+    }
+
     h1 {
         font-size: 400%;
     }
@@ -371,6 +379,15 @@ and (max-width: 1280px) {
 and (max-width: 768px) { 
     .container {
         width: 100%;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .menu-list {
+        max-height: 0;
+        margin: 30px 0 35px 0;
     }
 
     h1 {
@@ -398,7 +415,7 @@ and (max-width: 768px) {
 
     .header .left-column {
         width: 100%;
-        padding: 15% 10% 10%;
+        padding: 15% 10% 6%;
         border-bottom: 0;
         margin-bottom: 0;
         background-color: var(--light);
