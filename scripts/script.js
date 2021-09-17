@@ -2,7 +2,7 @@ const body = document.body;
 const menuBtn = document.querySelector('.menu-btn');
 const menuList = document.querySelector('.menu-list');
 const menuCheckBox = document.getElementById('checkbox');
-const menuItems = document.querySelectorAll('.menu-list>li')
+const menuItems = document.querySelectorAll('.menu-list > li')
 
 function hideMenu() {
     menuCheckBox.checked = false;
