@@ -26,10 +26,6 @@ html {
     box-sizing: inherit;
 }
 
-a {
-    color: var(--dark-grey);
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -38,6 +34,14 @@ body {
     min-height: 100vh;
     font: normal 105% "PT Sans", sans-serif;
     line-height: 1.8;
+}
+
+a {
+  transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+  transition: all 0.4s ease-in-out;
 }
 
 .container {
@@ -95,7 +99,11 @@ body {
     width: 100%;
 }
 
-section {
+.portfolio-work {
+  color: var(--dark-grey);
+}
+
+.section {
     position: relative;
     width: 100%;
     padding: 30px 0;
@@ -105,7 +113,7 @@ section {
     padding-left: 12px;
 }
 
-section li {
+.section li {
     margin-left: 5%;
 }
 
@@ -221,7 +229,7 @@ a:hover {
     color: var(--green);
 }
 
-footer a:hover {
+.footer a:hover {
     color: var(--dark-green);
 }
 
@@ -473,7 +481,7 @@ and (max-width: 768px) {
 
     .menu-list li {
         opacity: 0;
-        transition: .6s;
+        transition: 0.4s;
         transition-delay: 0s;
     }
 
